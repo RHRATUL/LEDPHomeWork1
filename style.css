@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  width: 1000px;
+  height: 100px;
+  background: linear-gradient(to bottom, #00ffff 0%, #0099cc 100%);
+  margin: auto;
+}
+
+.marque {
+  line-height: 100px;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.menu {
+  width: 1000px;
+  height: 50px;
+  background: linear-gradient(to bottom, #ffffff 0%, #ccccff 100%);
+  margin: auto;
+}
+
+.menu ul {
+  text-align: center;
+}
+
+.menu ul li {
+  display: inline-block;
+  text-align: center;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: black;
+
+  padding: 5px 10px;
+  line-height: 50px;
+
+  border: 1px solid black;
+  margin-left: 10px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.menu ul li a:hover {
+  background: brown;
+  border-radius: ;
+}
+
+.content {
+  width: 1000px;
+  height: 100px;
+  margin: auto;
+}
+
+.leftcontent {
+  width: 25%;
+  height: 500px;
+
+  border: 2px solid black;
+
+  float: left;
+}
+
+.maincontent {
+  width: 75%;
+  height: 500px;
+  background: white;
+  float: left;
+
+  
+}
+
+/* leftcontentcard */
+
+.leftcard1 {
+  width: 250px;
+  height: 242px;
+}
+.leftcard1 img {
+  width: 250px;
+  height: 242px;
+}
+
+.leftcard2 {
+  width: 245px;
+  height: 240px;
+  margin-top: 10px;
+}
+.leftcard2 img {
+  width: 245px;
+  height: 242px;
+}
+
+/* Main Content Section */
+
+.maincontent h3 {
+  background: #ffd700;
+  text-align: center;
+  margin-top: 5px;
+}
+
+/* Main Product */
+.product {
+  float: left;
+  border: 1px solid black;
+  width: 200px;
+  height: 150px;
+  margin-top: 5px;
+  display: inline;
+  margin: 25px;
+}
+
+.item1 {
+  width: 200px;
+  height: 150px;
+  margin-top: 5px;
+  display: inline;
+}
+.item1 img {
+  width: 198px;
+  height: 148px;
+}
+
+.item1 a {
+  text-align: center;
+  width: 162px;
+  height: 102px;
+  border: 2px solid;
+  text-decoration: none;
+border-radius: 5px;
+  background: #ffdb58;
+  
+}
+
+.item-btn {
+  text-align: center;
+  padding: 10px;
+}
+
+.row2{
+
+
+}
